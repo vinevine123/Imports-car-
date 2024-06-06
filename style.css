@@ -1,0 +1,333 @@
+header{ gap: 552px;
+    display: flex;
+    background-color: #EBEBEB;
+    align-items: center;
+    padding: 15px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+img{
+height: 50px;
+}
+.fotos{ gap: 0px;
+
+}
+.compras{ gap: 0px;
+}
+
+h1{ width: 392px;
+    height: 94px;
+    left: 750px;
+    top: calc(50% - 28px/2 - 386px);
+    
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 94px;
+    
+    color: #ffffff;
+    position: absolute;
+    align-items: center;
+    
+}
+button{ position: absolute;
+    width: 937px;
+    height: 176px;
+    left: 515px;
+    top: 28%;
+    
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 55px;
+    
+    color: #6c6767;
+
+    color: white;
+  background: rgba(255, 235, 235, 0);
+  transition: background 1s;
+}
+button:hover,
+button:focus {
+  background: rgba(255, 0, 0, 0.459);
+  
+}
+
+body{ background-image: url("./assets/carro.jpg"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    background-position: center center
+}
+
+.sobres{ background-image: url("./assets/16.jpg"); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+.função{
+    position: absolute;
+    width: 1185px;
+    height: 669px;
+    left: 379px;
+    top: 223px;
+    
+    font-family: 'Caveat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    
+    color: #615d5d42;
+
+    font-weight: bold;
+
+    text-shadow:  
+      1px -1px 0 #ffffff, 
+      2px -2px 0 #ffffff, 
+      3px -3px 0 #ffffff, 
+      4px -4px 0 #ffffff, 
+      5px -5px 0 #ff00004a, 
+      13px -13px 12px rgba(0, 0, 0, 0.55), 
+      13px -13px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.sinalização{
+    position: absolute;
+    top: 90%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    height: 10%;
+
+    font-family: 'Kaushan Script';
+   
+    color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  transition: transform 1s;
+  transform: translateX(0) scale(0.5);
+}
+
+button:hover,
+button:focus {
+  background: rgb(255, 0, 0, 0.459);
+  
+}
+
+.album{ background-image: url("./assets/4.jpg"); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.LamborghiniHuracán2{
+
+  position: absolute;
+  width: 879px;
+  height: 249px;
+  left: 537px;
+  top: 138px;
+  
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  
+  color: #9C9494;
+  
+}
+
+.LamborghiniHuracán{
+position: absolute;
+width: 391px;
+height: 65px;
+left: 751px;
+top: 55px;
+
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 65px;
+
+color: #FFFFFF;
+text-shadow: 0 0 10px #f91c11, 0 0 20px #971d1d85;
+
+}
+
+.Huracán {
+  position: absolute;
+  width: 400px;
+  height: 240px;
+  top: 100px; 
+  left: 5px;
+  border: 3px dotted #9d9391
+}
+
+.GTR0 {
+  position: absolute;
+  width: 400px;
+  height: 240px;
+  top: 353px;
+  left: 5px; 
+  margin-top: 25px; 
+  border: 3px dotted #2b41cd
+}
+
+.GTRR352{
+  position: absolute;
+  width: 879px;
+  height: 249px;
+  left: 537px;
+  top: 430px;
+  
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  
+  color: #9C9494;
+}
+ .GTRR35{
+  position: absolute;
+width: 391px;
+height: 65px;
+left: 751px;
+top: 337px;
+
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 65px;
+
+color: #FFFFFF;
+
+}
+
+.CAMAROSS622{
+  position: absolute;
+  width: 879px;
+  height: 249px;
+  left: 537px;
+  top: 680px;
+  
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  
+  color: #9C9494;
+}
+
+.CAMAROSS62{
+  position: absolute;
+width: 391px;
+height: 65px;
+left: 751px;
+top: 590px;
+
+font-family: 'Kaushan Script';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 65px;
+
+color: #FFFFFF;
+text-shadow: 0 0 10px #f91c11, 0 0 20px #971d1d85;
+}
+
+.CAMARO{
+  position: absolute;
+  width: 400px;
+  height: 240px;
+  top: 640px;
+  left: 5px; 
+  margin-top: 25px; 
+  border: 3px dotted #564e4e
+}
+.compra {
+  background-image: url("./assets/15.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px;
+  background-position: center center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Fundo escuro para destacar o neon */
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+}
+
+.central {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.contact-tab {
+  width: 400px;
+  background: linear-gradient(135deg, #8e8c8e88, #44444488); /* Gradiente neon */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(22, 22, 22, 0.6), 0 0 30px rgba(232, 255, 255, 0.6); /* Sombra neon */
+}
+
+.tab-header {
+  text-align: center;
+}
+
+.tab-content {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #00ffff; /* Texto neon */
+  text-shadow: 0 0 10px #f91c11, 0 0 20px #971d1d85;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #ffffff; /* Texto neon */
+  text-shadow: 0 0 10px #2b2a2b, 0 0 20px #e4e4e4;
+}
+
+input,
+textarea {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #df0303; /* Borda neon */
+  border-radius: 5px;
+  background-color: #1a1a1a; /* Fundo escuro */
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  background-color: #f8ffff; /* Botão neon */
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #ffffff; /* Cor de fundo neon ao passar o mouse */
+  text-shadow: 0 0 10px #f7ebf7, 0 0 20px #ffffff;
+}
